@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Hu Hongfeng"
-  avatar           : "/docs/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "screenshot.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a **lazy** person.XQL"
   location         : "Shenzhen"
   email            : 1312064524@qq.com
