@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Hu Hongfeng"
   avatar           : "xiguannvhai.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a **lazy** person.XQL"
+  bio              : "I am a **lazy** person."
   location         : "Shenzhen"
   email            : 1312064524@qq.com
   links:
