@@ -2,6 +2,10 @@
 main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "文章年份"
+    url: /posts/
+  - title: "文章标签"
+    url: /tags/
   - title: "文章类别"
     url: /categories/
   - title: "Machine Learning"
