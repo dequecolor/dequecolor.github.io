@@ -256,9 +256,6 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
-category_archive:
-  type: liquid
-  path: /machine-learning/
 tag_archive:
   type: liquid
   path: /tags/
