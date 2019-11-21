@@ -1,7 +1,7 @@
 ---
 permalink: /machine-learning/
 title: "machine learning"
-author_profile: false
+author_profile: true
 ---
 
 转载自：https://blog.csdn.net/weixin_42751456/article/details/91048807
