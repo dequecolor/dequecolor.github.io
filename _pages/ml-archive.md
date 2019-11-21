@@ -1,5 +1,5 @@
 ---
-permalink: /ml-archive/
+permalink: /machine-learning/
 title: "machine learning"
 author_profile: true
 ---
