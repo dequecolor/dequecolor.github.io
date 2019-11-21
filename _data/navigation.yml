@@ -5,7 +5,7 @@ main:
   - title: "MachineLearning"
   - url: https://www.baidu.com/
   - title: "Baidu"
-    url: https://www.baidu.com/
+    url: /about/
   - title: "About"
     url: /about/
   # - title: "Sample Posts"
