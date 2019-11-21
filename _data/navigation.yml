@@ -2,8 +2,8 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Machine Learning"
-  - url: /machine-learning/
+  - title: "MachineLearning"
+  - url: https://www.baidu.com/
   - title: "Baidu"
     url: https://www.baidu.com/
   - title: "About"
