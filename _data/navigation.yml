@@ -2,10 +2,8 @@
 main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "dfsdfadsf"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Baidfdfu"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Machine Learning"
+    url: /machine-learning/
   - title: "About"
     url: /about/
   # - title: "Sample Posts"
