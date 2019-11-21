@@ -20,7 +20,7 @@ locale                   : "en-US"
 title                    : "HUHONGFENG Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Hu Hongfeng"
+name                     : "QWERTYUIOP"
 description              : "First time to build my blog."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -66,7 +66,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -158,7 +158,7 @@ footer:
 
 # Reading Files
 include:
-  - .htaccess
+  #- .htaccess
   - _pages
 exclude:
   - "*.sublime-project"
@@ -256,6 +256,9 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
+category_archive:
+  type: liquid
+  path: /machine-learning/
 tag_archive:
   type: liquid
   path: /tags/
