@@ -4,6 +4,8 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Machine Learning"
   - url: /machine-learning/
+  - title: "Baidu"
+    url: https://www.baidu.com/
   - title: "About"
     url: /about/
   # - title: "Sample Posts"
