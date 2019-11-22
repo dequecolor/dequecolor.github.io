@@ -7,6 +7,10 @@ tags:
   - Python
   - Sklearn
 toc: true
+.page__lead {
+  font-family: $global-font-family;
+  font-size: $type-size-4;
+}
 ---
 
 Python中的Sklearn模块内置了经典的机器学习算法，以及数据处理方法。本文主要介绍Sklearn的数据处理部分的功能和用法。
