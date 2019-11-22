@@ -39,4 +39,27 @@ array([0., 0., 0.])
 >>> X_scaled.std(axis=0)
 array([1., 1., 1.])
 ```
+preprocessing模块深入地提供了了一个类StandardScaler来进行转化，可以在训练集上计算均值和方差，在测试集上做出同样的转换（认为测试集和训练集数据特征一样）：
+```python
+>>> scaler = preprocessing.StandardScaler().fit(X_train)
+>>> scaler
+StandardScaler(copy=True, with_mean=True, with_std=True)
 
+>>> scaler.mean_                                      
+array([1. ..., 0. ..., 0.33...])
+
+>>> scaler.scale_                                       
+array([0.81..., 0.81..., 1.24...])
+
+>>> scaler.transform(X_train)                           
+array([[ 0.  ..., -1.22...,  1.33...],
+       [ 1.22...,  0.  ..., -0.26...],
+       [-1.22...,  1.22..., -1.06...]])
+```
+实例scaler可以应用于新数据做出转换：
+```python
+>>> X_test = [[-1., 1., 0.]]
+>>> scaler.transform(X_test)                
+array([[-2.44...,  1.22..., -0.26...]])
+```
+通过将with_mean = False或with_std = False传递给StandardScaler的构造函数，可以禁用居中或缩放。
