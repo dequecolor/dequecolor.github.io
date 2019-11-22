@@ -18,7 +18,7 @@ Python中的Sklearn模块内置了经典的机器学习算法，以及数据处�
 sklearn.preprocessing
 ## 标准化方法和类
 scale函数提供了一个快速和易于使用的方式去转换数据为均值为0，标准差为1的标准数据
-```
+```python
 >>> from sklearn import preprocessing
 >>> import numpy as np
 >>> X_train = np.array([[ 1., -1.,  2.],
