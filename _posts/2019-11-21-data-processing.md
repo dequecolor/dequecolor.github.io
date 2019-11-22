@@ -7,9 +7,6 @@ tags:
   - Python
   - Sklearn
 toc: true
-.page__lead {
-  font-family: $global-font-family;
-  font-size: $type-size-4;
 }
 ---
 
