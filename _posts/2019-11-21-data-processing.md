@@ -6,6 +6,7 @@ categories:
 tags:
   - Python
   - Sklearn
+toc: true
 ---
 
 Python中的Sklearn模块内置了经典的机器学习算法，以及数据处理方法。本文主要介绍Sklearn的数据处理部分的功能和用法。
