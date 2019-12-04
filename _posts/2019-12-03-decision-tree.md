@@ -33,27 +33,10 @@ toc: true
 用决策树分类，从根节点开始，对实例的某一特征进行测试，根据测试结果，将实例分配到子节点；这时，每一个子节点对应着该特征的一个取值。
 如此递归地对实例进行测试与分类，直至达到叶节点，最后将实例分到叶节点的类中。
 
-```flow
-st=>start: 开始框
-op=>operation: 处理框
-cond=>condition: 判断框(是或否?)
-sub1=>subroutine: 子流程
-io=>inputoutput: 输入输出框
-e=>end: 结束框
-st->op->cond
-cond(yes)->io->e
-cond(no)->sub1(right)->op
-```
-```mermaid
-graph TD
-    id[带文本的矩形]
-    id4(带文本的圆角矩形)
-    id3>带文本的不对称的矩形]
-    id1{带文本的菱形}
-    id2((带文本的圆形))
-```
-
 ### 决策树与`if-then`规则
+
+可以将决策树看成一个`if-then`规则的集合。
+
 ### 决策树与条件概率分布
 
 ## 特征选择
