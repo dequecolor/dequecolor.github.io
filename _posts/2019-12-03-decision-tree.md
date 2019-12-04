@@ -26,6 +26,25 @@ toc: true
 
 ## 决策树模型与学习
 ### 决策树模型
+
+**定义**  分类决策树模型是一种描述对实例进行分类的树形结构。决策树由节点（node）和有向边（directed edge）组成。节点有两种类型：
+内部节点（internal node）和叶节点（leaf node）。内部节点表示一个特征或属性，叶节点表示一个类。
+
+用决策树分类，从根节点开始，对实例的某一特征进行测试，根据测试结果，将实例分配到子节点；这时，每一个子节点对应着该特征的一个取值。
+如此递归地对实例进行测试与分类，直至达到叶节点，最后将实例分到叶节点的类中。
+
+```flow
+st=>start: 开始框
+op=>operation: 处理框
+cond=>condition: 判断框(是或否?)
+sub1=>subroutine: 子流程
+io=>inputoutput: 输入输出框
+e=>end: 结束框
+st->op->cond
+cond(yes)->io->e
+cond(no)->sub1(right)->op
+```
+
 ### 决策树与`if-then`规则
 ### 决策树与条件概率分布
 
