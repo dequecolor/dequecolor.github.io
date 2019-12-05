@@ -52,13 +52,8 @@ toc: true
 ### 决策树学习
 
 假设给定训练集
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
 
-$$ 
-x = {-b \pm \sqrt{b^2-4ac} \over 2a}. 
-$$
-
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+$$ D = $$
 
 
 ## 特征选择
