@@ -79,4 +79,4 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 参考李航的《统计学习方法》
 
 
-[1]: ./images/decision_tree.png
+[1]: /_post/images/decision_tree.png
