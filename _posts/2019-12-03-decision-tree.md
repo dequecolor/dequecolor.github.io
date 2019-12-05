@@ -52,6 +52,13 @@ toc: true
 假设给定训练集
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
 
+$$ 
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}. 
+$$
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+
 ## 特征选择
 ### 特征选择问题
 ### 信息增益
