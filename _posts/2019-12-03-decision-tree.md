@@ -132,13 +132,10 @@ $$g(D,A)=H(D)-H(D\vert A)$$
 - 输出：特征A对训练数据集D的信息增益g(D,A)。
 
 1. 计算数据集D的经验熵H(D)
-
 $$H(D)=-\sum_{k=1}^K \frac{\vert C_k\vert}{\vert D\vert}\log_2 \frac{\vert C_k\vert}{\vert D\vert}$$
 1. 计算特征A对数据集D的经验条件熵H(D\|A)
-
 $$H(D\vert A)=\sum_{i=1}^n \frac{\vert D_i\vert}{\vert D\vert}H(D_i)=-\sum_{i=1}^n \frac{\vert D_i\vert}{\vert D\vert} \sum_{k=1}^K \frac{\vert D_{ik}\vert}{\vert D_i\vert} \log_2 \frac{\vert D_{ik}\vert}{\vert D_i\vert}$$
 1. 计算信息增益
-
 $$g(D,A)=H(D)-H(D\vert A)$$
 
 
