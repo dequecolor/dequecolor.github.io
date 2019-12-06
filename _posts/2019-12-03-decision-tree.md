@@ -119,9 +119,19 @@ $$H(p)=-\sum_{i=1}^n{p_i\log p_i}$$
 
 熵越大，随机变量的不确定性就越大，从定义可验证
 
-$$0<=H(p)<=\log n$$
+$$0\leq H(p)\leq \log n$$
 
+当随机变量只取两个值，例如1,0时，即X的分布为
 
+$$P(X=1)=p,   P(X=0)=1-p,   0\leq p\leq 1$$
+
+熵为
+
+$$H(p)=-p\log_2 p-(1-p)\log_2 (1-p)$$
+
+这时，熵$$H(p)$$随概率p变化的曲线如下图所示（单位为比特）。
+
+![伯努利分布熵与概率的关系][3]
 
 ### 信息增益比
 ### ID3算法
@@ -140,3 +150,4 @@ $$0<=H(p)<=\log n$$
 
 [1]: /assets/images/decision_tree.png "决策树"
 [2]: /assets/images/maybe_learn.png
+[3]: /assets/images/b_prob.png
