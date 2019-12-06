@@ -133,7 +133,7 @@ $$g(D,A)=H(D)-H(D\vert A)$$
 
 1. 计算数据集D的经验熵H(D)
 
-$$H(D)=-\sum_{k=1}^K \frac{\vert C_k\vert}{D}\log_2 \frac{\vert C_k\vert}{D}$$
+$$H(D)=-\sum_{k=1}^K \frac{\vert C_k\vert}{\vert D\vert}\log_2 \frac{\vert C_k\vert}{\vert D\vert}$$
 
 1. 计算特征A对数据集D的经验条件熵H(D\|A)
 
