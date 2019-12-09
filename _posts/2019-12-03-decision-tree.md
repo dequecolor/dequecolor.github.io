@@ -148,9 +148,9 @@ $$g(D,A)=H(D)-H(D\vert A)$$
 g(D\vert A_1) & = H(D)-[\frac{5}{15}H(D_1)+\frac{5}{15}H(D_2)+\frac{5}{15}H(D_3)] \\\\\\
 & = 0.971-
 \begin{align}
-[& \frac{5}{15}(-\frac{2}{5}\log_2 \frac{2}{5}-\frac{3}{5}\log_2 \frac{3}{5}) \\\\\\
+[& +\frac{5}{15}(-\frac{2}{5}\log_2 \frac{2}{5}-\frac{3}{5}\log_2 \frac{3}{5}) \\\\\\
 & +\frac{5}{15}(-\frac{3}{5}\log_2 \frac{3}{5}-\frac{2}{5}\log_2 \frac{2}{5}) \\\\\\
-& +\frac{5}{15}(-\frac{4}{5}\log_2 \frac{4}{5}--\frac{1}{5}\log_2 \frac{1}{5}] \\\\\\
+& +\frac{5}{15}(-\frac{4}{5}\log_2 \frac{4}{5}--\frac{1}{5}\log_2 \frac{1}{5}] 
 \end{align} \\\\\\
 & = 0.971-0.888 \\\\\\
 & = 0.083
