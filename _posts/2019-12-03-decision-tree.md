@@ -250,14 +250,14 @@ $$C_{\alpha}(T)=\sum_{t=1}^{\vert T\vert}{N_tH_t(T)}+\alpha \vert T\vert$$
 
 其中经验熵为：
 
-$$H_t(T)=-\sum_k{\frac{N_{tk}}{N_t}\log {\frac{N_{tk}}{N_t}$$
+$$H_t(T)=-\sum_k{\frac{N_{tk}}{N_t}\log {\frac{N_{tk}}{N_t}}$$
 
 在损失函数定义中，右端的第一项记作：
 
 \$\$
 \begin{align}
 C(T)&=\sum_{t=1}^{\vert T\vert}{N_tH_t(T)} \\\\\\
-&=-\sum_{t=1}^{\vert T\vert}{\sum_{k=1}^{K}{N_{tk}\log \frac{N_{tk}{N_t}}}}
+&=-\sum_{t=1}^{\vert T\vert}{\sum_{k=1}^{K}{N_{tk}\log \frac{N_{tk}}{N_t}}}
 \end{align}
 \$\$
 
