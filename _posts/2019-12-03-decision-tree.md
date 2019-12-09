@@ -146,9 +146,12 @@ $$g(D,A)=H(D)-H(D\vert A)$$
 1. $$D_1,D_2,D_3$$指的$$A_1$$（年龄）取值为青年、中年和老年的样本子集。    
 \$\$ \begin{align}
 g(D\vert A_1) & = H(D)-[\frac{5}{15}H(D_1)+\frac{5}{15}H(D_2)+\frac{5}{15}H(D_3)] \\\\\\
-& = 0.971-[\frac{5}{15}(-\frac{2}{5}\log_2 \frac{2}{5}-\frac{3}{5}\log_2 \frac{3}{5}) \\\\\\
-+\frac{5}{15}(-\frac{3}{5}\log_2 \frac{3}{5}-\frac{2}{5}\log_2 \frac{2}{5}) \\\\\\
-+\frac{5}{15}(-\frac{4}{5}\log_2 \frac{4}{5}--\frac{1}{5}\log_2 \frac{1}{5}] \\\\\\
+& = 0.971-
+\begin{align}
+[& \frac{5}{15}(-\frac{2}{5}\log_2 \frac{2}{5}-\frac{3}{5}\log_2 \frac{3}{5}) \\\\\\
+& +\frac{5}{15}(-\frac{3}{5}\log_2 \frac{3}{5}-\frac{2}{5}\log_2 \frac{2}{5}) \\\\\\
+& +\frac{5}{15}(-\frac{4}{5}\log_2 \frac{4}{5}--\frac{1}{5}\log_2 \frac{1}{5}] \\\\\\
+\end{align} \\\\\\
 & = 0.971-0.888 \\\\\\
 & = 0.083
 \end{align} \$\$
