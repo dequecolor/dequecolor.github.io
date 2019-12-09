@@ -145,10 +145,10 @@ $$g(D,A)=H(D)-H(D\vert A)$$
 然后计算各特征对数据集D的信息增益。分别以$$A_1,A_2,A_3,A_4$$表示年龄、有工作、有自己的房子和信贷情况4个特征，则
 
 1.   
-\$\$\begin{aligned}
-g(D\vert \A_1)=H(D)-[\frac{5}{15}H(D_1)+\frac{5}{15}H(D_2)+\frac{5}{15}H(D_3)]
+\$\$\begin{align}
+g(D\vert A_1)=H(D)-[\frac{5}{15}H(D_1)+\frac{5}{15}H(D_2)+\frac{5}{15}H(D_3)]
 &=0.971-[\frac{5}{15}(-\frac{2}{5}\log_2 \frac{2}{5}-\frac{3}{5}\log_2 \frac{3}{5})]
-\end{aligned}
+\end{align}
 \$\$
 
 
