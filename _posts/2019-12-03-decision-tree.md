@@ -7,8 +7,7 @@ tags:
   - 决策树
   - 机器学习
 toc: true
-toc_sticky: true
-
+<!--toc_sticky: true-->
 ---
 
 
@@ -146,8 +145,8 @@ $$g(D,A)=H(D)-H(D\vert A)$$
 
 1.       
 \$\$ \begin{align}
-g(D\vert A_1) & = H(D)-[\frac{5}{15}H(D_1)+\frac{5}{15}H(D_2)+\frac{5}{15}H(D_3)] \\\\\\\\
-& = 0.971-[\frac{5}{15}(-\frac{2}{5}\log_2 \frac{2}{5}-\frac{3}{5}\log_2 \frac{3}{5})] \\\\\\\\
+g(D\vert A_1) & = H(D)-[\frac{5}{15}H(D_1)+\frac{5}{15}H(D_2)+\frac{5}{15}H(D_3)] \\\\\\
+& = 0.971-[\frac{5}{15}(-\frac{2}{5}\log_2 \frac{2}{5}-\frac{3}{5}\log_2 \frac{3}{5})] \\\\\\
 \end{align} \$\$
 
 
