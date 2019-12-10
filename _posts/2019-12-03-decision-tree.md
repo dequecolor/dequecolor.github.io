@@ -323,11 +323,11 @@ $$\hat c_m=ave(y_i\vert x_i\in R_m)$$
 
 问题是怎么对输入空间进行划分，这里采用启发式的方法，选择第j个变量$$x^{(j)}$$和它取的值s，作为切分变量(splitting variable)和切分点(splitting point)，并定义两个区域：  
 
-$$R_1(j,s)=\{x\vert x^{(j)}\leq s} 和 R_2(j,s)={x\vert >s\}$$
+$$R_1(j,s)=\{x\vert x^{(j)}\leq s\} 和 R_2(j,s)=\{x\vert x^{(j)}>s\}$$
 
 然后寻找最优切分变量j最优切分点s，具体地，求解
 
-$$\min_{j,s}{[]}$$
+$$\min_{j,s}{[min_{c_1}\sum_{x_i\in R_1(j,s)}{(y_i-c_1)^2}]}$$
 
 
 
