@@ -346,7 +346,11 @@ $$\hat c_1=ave(y_i\vert x_i\in R_1(j,s))和\hat c_2=ave(y_i\vert x_i\in R_2(j,s)
 \$\$\min_{j,s}{[\min_{c_1}\sum_{x_i\in R_1(j,s)}{(y_i-c_1)^2}+\min_{c_2}\sum_{x_i\in R_2(j,s)}{(y_i-c_2)^2}]} \text {\$\quad\$式2}\$\$  
 遍历变量j，对固定的切分变量j扫描切分点s，选择是式2达到最小值的对(j,s)。  
 2. 用选定的对(j,s)划分区域，并决定相应的输出值：  
-
+\$\$R_1(j,s)=\{x\vert x^{(j)}\leq s\},\quad R_2(j,s)=\{x\vert x^{(j)}>s\}\$\$
+\$\$\hat c_m=\frac{1}{N_m}\sum_{x_i\in R_m(j,s)}{y_i},\quad x_i\in R_m,\quad m=1,2\$\$
+3. 继续对两个子区域调用步骤1,2，直至满足停止条件。
+4. 将输入空间划分为M个区域\$R_1,R_2,...,R_M\$，生成决策树：
+\$\$f(x)=\sum_{m=1}^M{\hat c_mI(x\in R_m)\$\$
 
 
 
