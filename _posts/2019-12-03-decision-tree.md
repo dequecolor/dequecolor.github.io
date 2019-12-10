@@ -350,7 +350,7 @@ $$\hat c_1=ave(y_i\vert x_i\in R_1(j,s))和\hat c_2=ave(y_i\vert x_i\in R_2(j,s)
 \$\$\hat c_m=\frac{1}{N_m}\sum_{x_i\in R_m(j,s)}{y_i},\quad x_i\in R_m,\quad m=1,2\$\$
 3. 继续对两个子区域调用步骤1,2，直至满足停止条件。
 4. 将输入空间划分为M个区域\$R_1,R_2,...,R_M\$，生成决策树：
-\$\$f(x)=\sum_{m=1}^M{\hat c_mI(x\in R_m)\$\$
+\$\$f(x)=\sum_{m=1}^M{\hat c_mI(x\in R_m)}\$\$
 
 
 
