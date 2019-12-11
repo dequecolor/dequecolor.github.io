@@ -391,7 +391,7 @@ $$\hat c_1=ave(y_i\vert x_i\in R_1(j,s))和\hat c_2=ave(y_i\vert x_i\in R_2(j,s)
 求特征$$A_1$$的基尼指数
 \$\$
 \begin{align}
-Gini(D,A_1=1)&=\frac{5}{15}\left(2\times \frac{2}{5}\times \left(\1-\frac{2}{5}\right) \right)=0.44 \\\\\\
+Gini(D,A_1=1)&=\frac{5}{15}\left(2\times \frac{2}{5}\times \left(1-\frac{2}{5}\right) \right)=0.44 \\\\\\
 Gini(D,A_1=2)&=0.48 \\\\\\
 Gini(D,A_1=3)&=0.44
 \end{align}
