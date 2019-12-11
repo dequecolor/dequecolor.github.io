@@ -366,7 +366,11 @@ $$\hat c_1=ave(y_i\vert x_i\in R_1(j,s))和\hat c_2=ave(y_i\vert x_i\in R_2(j,s)
 \$\$D_1=\{(x,y)\in D\vert A(x)=a\},\quad D_2=D-D_1\$\$
 则在特征A的条件下，集合D的基尼指数定义为
 \$\$Gini(D,A)=\frac{\vert D_1\vert}{\vert D\vert}Gini(D_1)+\frac{\vert D_2\vert}{\vert D\vert}Gini(D_2)\$\$
-基尼指数Gini(D)表示集合D的不确定性，基尼指数Gini(D,A)表示经A=a分割后集合D的不确定性。基尼指数值越大，样本集合的不确定性也就越大，这一点与熵相似。
+基尼指数Gini(D)表示集合D的不确定性，基尼指数Gini(D,A)表示经A=a分割后集合D的不确定性。基尼指数值越大，样本集合的不确定性也就越大，这一点与熵相似。  
+下图是二类分类问题中基尼指数Gini(p)、熵（单位比特）之半$$\frac{1}{2}H(p)$$和分类误差率的关系。横坐标表示概率p，纵坐标表示损失。可以看出基尼指数和熵之半的曲线很接近，都可以近似的代替分类误差率。
+
+![曲线对比][6]
+
 ### CART剪枝
 
 ## 本文概要
@@ -379,3 +383,4 @@ $$\hat c_1=ave(y_i\vert x_i\in R_1(j,s))和\hat c_2=ave(y_i\vert x_i\in R_2(j,s)
 [3]: /assets/images/b_prob.png
 [4]: /assets/images/ID3.png
 [5]: /assets/images/pruning.png
+[6]: /assets/images/compare_bin.png
