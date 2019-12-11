@@ -344,7 +344,7 @@ $$\hat c_1=ave(y_i\vert x_i\in R_1(j,s))和\hat c_2=ave(y_i\vert x_i\in R_2(j,s)
 
 1. 选择最优切分变量j和切分点s，求解  
 \$\$\min_{j,s}{[\min_{c_1}\sum_{x_i\in R_1(j,s)}{(y_i-c_1)^2}+\min_{c_2}\sum_{x_i\in R_2(j,s)}{(y_i-c_2)^2}]} \text {\$\quad\$式2}\$\$  
-遍历变量j，对固定的切分变量j扫描切分点s，选择是式2达到最小值的对(j,s)。  
+遍历变量j，对固定的切分变量j扫描切分点s，选择使式2达到最小值的对(j,s)。  
 2. 用选定的对(j,s)划分区域，并决定相应的输出值：  
 \$\$R_1(j,s)=\\{x\vert x^{(j)}\leq s\\},\quad R_2(j,s)=\\{x\vert x^{(j)}>s\\}\$\$
 \$\$\hat c_m=\frac{1}{N_m}\sum_{x_i\in R_m(j,s)}{y_i},\quad x_i\in R_m,\quad m=1,2\$\$
@@ -357,6 +357,10 @@ $$\hat c_1=ave(y_i\vert x_i\in R_1(j,s))和\hat c_2=ave(y_i\vert x_i\in R_2(j,s)
 分类树用基尼指数选择最优特征，同时决定该特征的最优二值切分点。  
 **定义** （基尼指数） &nbsp; 分类问题中，假设有K个类，样本点属于第k类的概率为$$p_k$$，则概率分布的基尼指数定义为：
 \$\$Gini(p)=\sum_{k=1}^{K}{p_k(1-p_k)}=1-\sum_{k=1}^{K}{p_k^2}\$\$
+对于二分类问题，若样本点属于第一个类的概率是p，则概率分布的基尼指数为
+\$\$Gini(p)=2p(1-p)\$\$
+对于给定的样本集合D，其基尼指数为
+\$\$Gini(D)=1-\sum_{k=1}^K{(\frac{\vert C_k\vert}{\vert D\vert})^2}\$\$
 
 ### CART剪枝
 
