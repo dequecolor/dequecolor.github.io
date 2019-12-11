@@ -361,7 +361,12 @@ $$\hat c_1=ave(y_i\vert x_i\in R_1(j,s))和\hat c_2=ave(y_i\vert x_i\in R_2(j,s)
 \$\$Gini(p)=2p(1-p)\$\$
 对于给定的样本集合D，其基尼指数为
 \$\$Gini(D)=1-\sum_{k=1}^K{\left( \frac{\vert C_k\vert}{\vert D\vert}\right) ^2}\$\$
-
+这里，$$C_k$$是D中属于第k类的样本子集，K是类的个数。  
+如果样本集合D根据特征A是否取某一可能值a被分割成$$D_1$$和$$D_2$$两部分，即
+\$\$D_1=\{(x,y)\in D\vert A(x)=a\},\quad D_2=D-D_1\$\$
+则在特征A的条件下，集合D的基尼指数定义为
+\$\$Gini(D,A)=\frac{\vert D_1\vert}{\vert D\vert}Gini(D_1)+\frac{\vert D_2\vert}{\vert D\vert}Gini(D_2)\$\$
+基尼指数Gini(D)表示集合D的不确定性，基尼指数Gini(D,A)表示经A=a分割后集合D的不确定性。基尼指数值越大，样本集合的不确定性也就越大，这一点与熵相似。
 ### CART剪枝
 
 ## 本文概要
