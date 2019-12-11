@@ -360,7 +360,7 @@ $$\hat c_1=ave(y_i\vert x_i\in R_1(j,s))和\hat c_2=ave(y_i\vert x_i\in R_2(j,s)
 对于二分类问题，若样本点属于第一个类的概率是p，则概率分布的基尼指数为
 \$\$Gini(p)=2p(1-p)\$\$
 对于给定的样本集合D，其基尼指数为
-\$\$Gini(D)=1-\sum_{k=1}^K{(\frac{\vert C_k\vert}{\vert D\vert})^2}\$\$
+\$\$Gini(D)=1-\sum_{k=1}^K{\left \frac{\vert C_k\vert}{\vert D\vert}\right ^2}\$\$
 
 ### CART剪枝
 
