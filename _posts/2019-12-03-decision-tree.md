@@ -458,7 +458,7 @@ Breiman等人证明：可以用递归的方法对树进行剪枝。将$$\alpha$$
 2. 设$$\alpha=+\infty$$。
 3. 自下而上的对各内部结点t计算$$C(T_t)$$，$$\vert T_t\vert$$以及  
 \$\$g(t)=\frac{C(t)-C(T_t)}{\vert T_t\vert -1}\$\$  
-\$\$\alpha=\min{\alpha,g(t))}\$\$  
+\$\$\alpha=\min{(\alpha,g(t))}\$\$  
 这里，$$T_i$$表示以t为根结点的子树，$$C(T_i)$$是对训练数据的预测误差，$$\vert T_i\vert$$是$$T_i$$的叶结点个数。
 4. 对$$g(t)=\alpha$$的内部结点t进行剪枝，并对叶结点t以多数表决发决定其类，得到树T。
 5. 设$$k-k+1,\alpha_k=\alpha,T_k=T$$。
